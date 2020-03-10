@@ -1,6 +1,7 @@
 docker build -t katiebvogel/multi-client:latest -t katiebvogel/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t katiebvogel/multi-server:latest -t katiebvogel/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t katiebvogel/multi-worker:latest -t katiebvogel/multi-worker:$SHA -f ./worker/Dockerfile ./worker
+
 docker push katiebvogel/multi-client:latest
 docker push katiebvogel/multi-server:latest
 docker push katiebvogel/multi-worker:latest
