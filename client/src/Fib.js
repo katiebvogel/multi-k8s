@@ -67,6 +67,8 @@ class Fib extends Component {
         <h3>Indexes I have seen:</h3>
         {this.renderSeenIndexes()}
 
+        <h4>This is Katie</h4>
+        
         <h3>Calculated Values:</h3>
         {this.renderValues()}
       </div>
